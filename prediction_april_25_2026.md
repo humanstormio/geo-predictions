@@ -57,9 +57,7 @@ If you monitor grid telemetry, you will see:
 
 ## Timestamp Proof
 
-This prediction is published on **April 20, 2026** at [TIME] GMT.
-
-GitHub commit hash: [HASH]
+This prediction is published on **April 20, 2026**.
 
 ---
 
