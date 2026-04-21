@@ -5,7 +5,7 @@ Predicting grid failures using math, physics, and analogical reasoning.
 
 **Repository:** geo-fracture-forecast  
 **Author:** Emmanuel Cephas (co-author, Herrera-Cephas 2011)  
-**Date:** April 20, 2026
+**Date:** April 21, 2026
 
 ---
 
@@ -29,8 +29,6 @@ The prediction is based on fracture physics first established in:
 - Multiple active faults in Accra West corridor
 
 **If these triggers align, fracture is imminent within 90 minutes.**
-
-**Timestamp:** April 20, 2026
 
 **Full method available under NDA.**---
 
