@@ -11,7 +11,7 @@ Predicting Grid Failures using mathematics and phyiscs.
 
 ## Summary
 
-This repository contains a timestamped prediction of grid fracture (dumsor) in Ghana's Accra West region on **April 25, 2026 between 18:00–21:00 GMT**.
+This repository contains a timestamped prediction of grid fracture (dumsor) in Ghana's Accra West region on **April 25, 2026**.
 
 The prediction is based on fracture physics first established in:
 > Herrera, M., McCarthy, S., Slotterback, S., **Cephas, E.**, Losert, W., & Girvan, M. (2011).  
