@@ -36,7 +36,6 @@ This invariant applies to granular flows, power grids, and economic systems.
 | File | Content |
 |------|---------|
 | `prediction_april_25_2026.md` | Timestamped fracture prediction |
-| `method.md` | Full GEO v1.3 derivation and calibration |
 | `coefficients.md` | Power-law coefficients (α = 0.25, β = 1.15) |
 
 ---
@@ -46,6 +45,6 @@ This invariant applies to granular flows, power grids, and economic systems.
 If the prediction is correct, the method is validated.
 If the prediction is wrong, the method is falsified.
 
-Timestamped proof: [COMMIT HASH]
+ 
 Emmanuel Cephas, Jr. 
 April 20, 2026
