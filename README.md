@@ -44,6 +44,6 @@ The prediction is based on fracture physics first established in:
 If the prediction is correct, the method is validated.
 If the prediction is wrong, the method is falsified.
 
- 
-Emmanuel Cephas, Jr. 
-April 20, 2026
+**signed,**   
+Emmanuel Cephas, Jr.   
+
