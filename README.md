@@ -1,5 +1,5 @@
 # geo-fracture-forecast
-Predicting Grid Failures using mathematics and phyiscs.
+Predicting grid failures using math, physics, and analogical reasoning.
 
 # GEO Fracture Forecast — Ghana Grid
 
@@ -21,23 +21,24 @@ The prediction is based on fracture physics first established in:
 
 ---
 
-## Key Invariant
+**Basis:** Fracture physics from Herrera-Cephas (2011), applied to power grids via analogical reasoning.
 
-The paper established that networks fracture at a characteristic strain scale:
+**Verifiable Triggers (publicly observable):**
+- Frequency deviation below 49.8 Hz
+- Voltage sag exceeding 3%
+- Multiple active faults in Accra West corridor
 
-**s_char = 15**
+**If these triggers align, fracture is imminent within 90 minutes.**
 
-This invariant applies to granular flows, power grids, and economic systems.
+**Timestamp:** April 20, 2026
 
----
+**Full method available under NDA.**---
 
-## Files
+## File(s)
 
 | File | Content |
 |------|---------|
 | `prediction_april_25_2026.md` | Timestamped fracture prediction |
-| `coefficients.md` | Power-law coefficients (α = 0.25, β = 1.15) |
-
 ---
 
 ## Verification
