@@ -1,14 +1,14 @@
 # Fracture Prediction: Ghana Grid — April 25, 2026
 
 **Date of prediction:** April 20, 2026  
-**Forecast window:** April 25, 2026, 18:00–21:00 GMT  
+**Forecast window:** April 25, 2026  
 **Location:** Mallam substation → Accra West
 
 ---
 
 ## The Prediction
 
-The Ghana power grid will experience a **localized dumsor (blackout)** on **April 25, 2026 between 18:00 and 21:00 GMT**.
+The Ghana power grid will experience a **localized dumsor (blackout)** on **April 25, 2026**.
 
 The fracture will initiate at **Mallam substation** and propagate to **Accra West** within minutes.
 
