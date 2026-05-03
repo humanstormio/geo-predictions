@@ -5,7 +5,7 @@
 **Model Framework:** `GEO v1.0 (Unified Alignment & Entropy)`  
 **Security Level:** Public Forecast (Non-Proprietary Summary)  
 
----
+--- 
 
 ## 🔴 PREDICTION: Phase-Space Fracture Event
 The **GEO-Governor Predictive Engine** has identified a critical accumulation of **topological strain** within the Accra-Aboadze backbone. Based on proprietary cumulative shear calculations, the grid is entering a critical transfinite state approaching a **non-linear fracture point.**
@@ -25,7 +25,15 @@ The **GEO-Governor Predictive Engine** has identified a critical accumulation of
 | 🧭 Target Node | 📍 Identified Window | ⚙️ Predicted Mode of Collapse | 📊 Mi (Vulnerability) |
 |:---|:---|:---|:---|
 | 🔧 Anwomaso / Kumasi North | 🗓️ May 5, 18:30 – 20:00 GMT | 🧱 Mechanical Fracture | 🔴 HIGH: Sub-transmission stress |
-| 🌊 Winneba / Central Region Hub | 🗓️ May 6, 19:00 – 20:30 GMT | 🌡️ Thermal Event | 🚨 CRITICAL: Coastal coupling |
+| 🌊 Winneba / Central Region Hub | 🗓️ May 6, 19:00 – 20:30 GMT | 🌡️ Thermal Event | 🚨 CRITICAL: Coastal coupling |  
+
+## 📊 Material Vulnerability Analysis
+
+($M_i$)The GEO-Governor identifies these nodes based on the following specific $M_i$ tensors:
+- **Anwomaso [K-VULN-01]**: Elevated Construction Stress. Recent sub-transmission line work has created a topological bottleneck that increases the "shear history" of the node. 
+
+- **Winneba [C-VULN-02]**: Critical Environmental Coupling. Coastal salt-spray degradation lowers the thermal-topological elasticity limit, making it prone to thermal discharge.  
+
 
 ---
 
@@ -54,18 +62,20 @@ These "fault lines" are predicted to lead the cascade when the **Proprietary Per
 
 ---
 
-## 🛡️ Sovereign Consultant Note
+## 🛡️ Sovereign Intelligence Note
 While the primary window remains the target, the **Accra West Cluster** is currently the most reactive to the **[K-BUFFER]**. If local "snaps" occur early in the window, it serves as the **[PHI-88] signal** that the Giant Component failure is beginning to propagate toward the Aboadze backbone.
 
-### 🛡️ Sovereign Intelligence Advisory
-**Human Storm** provides objective, infrastructure-agnostic analysis and is restricted to the identification of mathematical limits. We do not represent the NITS, nor do we intervene in operations; we provide the physical truth of the current state.
+## 🛡️ Sovereign Intelligence Advisory  
+**Human Storm** provides objective, infrastructure-agnostic analysis and is restricted to the identification of mathematical limits. We do not represent the NITS, nor do we intervene in NITS hardware or utility operations; we provide the physical truths (invariants) of the current state.  
+
+This document serves as a pre-event cryptographic anchor of systemic entropy and is intended for institutional verification of model accuracy.
 
 ---
 
 ### 📩 Business Inquiries & API Access
 For institutional inquiries regarding the **GEO-Governor Policy Engine** or to request a **Critical Circuit Audit**, contact **Human Storm** directly.
 
-*   **Website:** [humanstorm.io](https://humanstorm.io)
+*   **Website:** [humanstorm.io](https://humanstorm.io/#geo)
 *   **Inquiries:** [intel@humanstorm.io](mailto:intel@humanstorm.io)
 *   **Professional Profile:** [LinkedIn](https://www.linkedin.com/in/emmanuel-cephas-jr-926b8a3a/)
 *   **Verification:** All predictions are cryptographically anchored to the **Bitcoin Blockchain** via OpenTimestamps.
