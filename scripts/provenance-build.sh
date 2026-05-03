@@ -21,9 +21,8 @@ echo "Processing: $FILE"
 SHA256=$(sha256sum "$FILE" | awk '{print $1}')
 
 # 2. Create OTS if not exists
-if [ ! -f "$FILE.ots" ]; then
-  ots stamp "$FILE"
-fi
+
+ots stamp "$FILE"
 
 # 3. Timestamp
 CREATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
