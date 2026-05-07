@@ -3,7 +3,7 @@ Predicting grid failures using math, physics, and analogical reasoning.
 
 # GEO Fracture Forecast — Ghana Grid  
 
-❗ Predictions in this directory test the validity of the topological model; they do not use [**BTC-OTS Immutable Notary Protocol**](./docs/PROTOCOL.md). The [**BTC-OTS Immutable Notary Protocol**](./docs/PROTOCOL.md) was introduced for later predictions (outside of this directory) to eliminate temporal skepticism.   
+❗ Predictions in this file, and directory, test the validity of the topological model; they do not use [**BTC-OTS Immutable Notary Protocol**](./docs/PROTOCOL.md). Though those predictions were made prior to their prediction dates. The [**BTC-OTS Immutable Notary Protocol**](./docs/PROTOCOL.md) was introduced for later predictions (outside of this directory and file) to eliminate temporal skepticism.   
 
 **Repository:** geo-predictions  
 **Author:** Emmanuel Cephas (co-author, Herrera-Cephas 2011)  
