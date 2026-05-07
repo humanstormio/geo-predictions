@@ -186,6 +186,8 @@ No machine-specific absolute paths are included.
 
 # Verification
 
+We use [**BTC-OTS Immutable Notary Protocol**](./docs/PROTOCOL.md).  
+
 ## Verify SHA256
 
 ```
@@ -218,7 +220,7 @@ Older prediction files created before the deterministic ledger format are stored
 archive/
 ```
 
-These are preserved as historical artifacts and are not retroactively modified. Predictions in [archive/](./archive/) folder demonstrated the validity of the topological model; Prediction [2026-05-04--2026-05-07_power-grid-fracture](./predictions/ghana/2026-05-04--2026-05-07_power-grid-fracture) introduced the **BTC-OTS Immutable Notary Protocol** to eliminate temporal skepticism.
+These are preserved as historical artifacts and are not retroactively modified. Predictions in [archive/](./archive/) folder demonstrated the validity of the topological model; Prediction [2026-05-04--2026-05-07_power-grid-fracture](./predictions/ghana/2026-05-04--2026-05-07_power-grid-fracture) introduced the [**BTC-OTS Immutable Notary Protocol**](./docs/PROTOCOL.md) to eliminate temporal skepticism.
 
 ## Timestamp Verification of Legacy Artifacts
 ```sh

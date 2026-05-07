@@ -5,7 +5,7 @@ To eliminate temporal skepticism and provide mathematical "Proof-of-Before" for 
 
 ## The Mechanism:
 
-**Data Hashing**: The forecast (JSON) is processed into a SHA-256 hash. This represents the unique structural fingerprint of the prediction.
+**Data Hashing**: The forecast (/predictions/path/to/prediction.md) file is processed into a SHA-256 hash. This represents the unique structural fingerprint of the prediction.
 
 **BTC Calendaring**: Using [OpenTimestamps (OTS)](https://opentimestamps.org/), this hash is submitted to the Bitcoin Blockchain.  
 

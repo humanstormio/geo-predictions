@@ -1,9 +1,11 @@
-# geo-fracture-forecast
-Predicting grid failures using math, physics, and analogical reasoning.
+# geo-predictions
+Predicting grid failures using math, physics, and analogical reasoning. 
 
-# GEO Fracture Forecast — Ghana Grid
+# GEO Fracture Forecast — Ghana Grid  
 
-**Repository:** geo-fracture-forecast  
+❗ Predictions in this directory test the validity of the topological model; they do not use [**BTC-OTS Immutable Notary Protocol**](./docs/PROTOCOL.md). The [**BTC-OTS Immutable Notary Protocol**](./docs/PROTOCOL.md) was introduced for later predictions (outside of this directory) to eliminate temporal skepticism.   
+
+**Repository:** geo-predictions  
 **Author:** Emmanuel Cephas (co-author, Herrera-Cephas 2011)  
 **Date:** April 21, 2026
 
