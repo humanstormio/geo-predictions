@@ -1,0 +1,10 @@
+# OpenTimestamps Protection: Treat these files as raw binary
+# This prevents Git from altering line endings and breaking the hash that opentimestamp uses to verify the integrity of the file.
+*.txt binary
+*.pdf binary
+*.md binary
+**/*/*.md binary
+**/*/*.json binary
+
+# Standard repository configurations below this line
+*.png diff=exif
