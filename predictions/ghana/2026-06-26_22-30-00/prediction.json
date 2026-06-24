@@ -1,0 +1,86 @@
+{
+  "DEDUCED_BASELINE_SEED_LOG": {
+    "Status": "INITIALIZED",
+    "System_Geography_ID": "GHANA_NITS_GRID_CORRIDOR",
+    "Initial_Timestamp": "2026-06-24T12:00:00Z",
+    "Baseline_Coupling_Capacity_D0": 1.0000,
+    "Thermodynamic_Scaling_Constant_k": 0.23,
+    "Total_System_Edges_M0": 120,
+    "Notes": "Ideal state assumes zero narrative debt (M = 0), yielding pure physical state vector attenuation of 1.0."
+  },
+
+  "GEO_V30_BIFURCATED_MUTATIONS": {
+    "CYCLE_1_MUTATION": {
+      "Timestamp": "2026-06-24T18:00:00Z",
+      "Node_Impacted": "Tema_BSP",
+      "Physical_State_H_Raw": 0.60,
+      "Narrative_Debt_M": 3.38,
+      "Effective_State_H_Effective": "0.60 * exp(-3.38 / 0.23) -> 0.60 * exp(-14.695) -> 2.48e-7",
+      "System_Action": "Severe state vector attenuation detected. The physical system rejects the utility's routine maintenance narrative."
+    },
+    "CYCLE_2_MUTATION": {
+      "Timestamp": "2026-06-25T18:00:00Z",
+      "Nodes_Impacted": ["Accra_East_BSP", "Adjiringanor_Node"],
+      "Load_Signal_S_i_Delta": "+15%",
+      "Narrative_Debt_M": 2.48,
+      "System_Action": "Load surge combined with existing narrative debt drives exponential local pricing fields (P_i) and extreme local stress indices (Phi_i)."
+    },
+    "CYCLE_3_MUTATION": {
+      "Timestamp": "2026-06-26T18:00:00Z",
+      "Global_Alignment_Product_D": "Approaching 0.0000",
+      "Narrative_Debt_M": "Maximal unrecorded debt across the interties",
+      "System_Action": "Paper normalization fails to suppress physical thermodynamic stress. Global backbone fracture imminent."
+    }
+  },
+
+  "SAMR_PERCOLATION_METRICS": {
+    "Tema_BSP_Analysis": {
+      "Topology_Class": "Radial_Hub_And_Spoke",
+      "Phi_Meso_Star": 0.35,
+      "Calculated_Stress_Phi": 0.105,
+      "Breach_Status": "PASSED_WITH_RESERVE"
+    },
+    "Accra_East_BSP_Analysis": {
+      "Topology_Class": "Linear_Chain_NITS_Corridor",
+      "Phi_Meso_Star": 0.07,
+      "Calculated_Stress_Phi": 0.0782,
+      "Breach_Status": "CRITICAL_BREACH_TRIGGERED",
+      "Action": "Structural freeze executed at Accra East NITS Corridor coordinates."
+    },
+    "Adjiringanor_Node_Analysis": {
+      "Topology_Class": "Linear_Chain_NITS_Corridor",
+      "Phi_Meso_Star": 0.07,
+      "Calculated_Stress_Phi": 0.0782,
+      "Breach_Status": "CRITICAL_BREACH_TRIGGERED",
+      "Action": "Structural freeze executed at Adjiringanor coordinates due to shared linear corridor shear."
+    }
+  },
+
+  "PUBLIC_FACING_BLACK_MAGIC_LEDGER": {
+    "PREDICTED_BLACKOUT_WINDOW_START": "2026-06-25T18:15:00Z",
+    "HIGH_DENSITY_GEOGRAPHIC_IMPACT_MAP": {
+      "ZONE_A_PRIMARY_CRITICAL": [
+        "Adjiringanor Road",
+        "Otano Junction",
+        "Bawaleshie Road",
+        "East Legon Boundary Road",
+        "American House Intersection",
+        "Trassaco Valley Main Gate"
+      ],
+      "ZONE_B_SECONDARY_CASCADE": [
+        "Madina Ritz Junction",
+        "Ashaley Botwe Old Town",
+        "Ogbojo Market Area",
+        "Nmai Djorn",
+        "Greda Estates Extension"
+      ]
+    },
+    "COMMERCIAL_OPERATIONAL_IMPACT_WARNINGS": {
+      "Cold_Storage_Sectors": "Market vendors and cold-store operators at Madina and local East Legon hubs must expect total refrigeration loss within 4 hours of the window start. Frozen stock liquidation or backup diesel generation must be active by 22:15 UTC to avoid complete inventory spoilage.",
+      "SME_Retail_Continuity": "Roadside kiosks, salons, and commercial retail spaces along the American House and Adjiringanor strips will experience severe phase imbalances followed by immediate power loss. Sensitive electronic equipment, styling tools, and refrigeration units should be physically unplugged to prevent damage from low-voltage sagging before total blackout."
+    },
+    "NARRATIVE_COUNTER_PROOF": "The utility company will issue an emergency press release stating: 'Management wishes to inform the general public, particularly our cherished customers in East Legon, Adjiringanor, and Madina, that the current outage is due to a transient tripping of our 161kV transmission lines following localized atmospheric disturbances and external vegetation interference. Our technical teams are working assiduously to restore power to all affected pockets.' This deliberately misdirects from the physical truth ($M > 0$): a systemic thermal collapse of a zero-redundancy linear corridor pushed past its absolute capacity limit by the 15% World Cup peak demand surge."
+  },
+
+  "FINAL_VERDICT_ISO8601_ZULU_TIMESTAMP": "2026-06-26T23:59:59Z"
+}

@@ -6,9 +6,9 @@ shopt -s expand_aliases
 # install ots-cli.js via npm: npm install -g ots-cli.js
 alias ots='ots-cli.js'
 FILE="$1"
-
+script_name="${BASH_SOURCE[0]##*/}"
 if [ -z "$FILE" ]; then
-  echo "Usage: ./generate_proof.sh path/to/prediction.md"
+  echo "Usage: ./$script_name path/to/prediction.md"
   exit 1
 fi
 
@@ -47,7 +47,7 @@ RELATIVE_PATH=`dirname "${FULL_PATH#$GIT_ROOT/}"`
 ID=$(echo "$RELATIVE_PATH" | tr '/' '.')
 
 # # 7. Write proof.json
-cat > "$DIR/proof.json" <<EOF
+cat > "$DIR/$BASENAME.proof.json" <<EOF
 {
   "id": "$ID",
   "file": "$BASENAME",
