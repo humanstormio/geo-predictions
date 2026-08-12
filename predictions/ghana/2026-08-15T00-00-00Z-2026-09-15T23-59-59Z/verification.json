@@ -1,0 +1,9 @@
+{
+  "status": "pending",
+  "verified_at": "",
+  "predictions": {
+    "flood": {
+      "status": "pending"
+    }
+  }
+}

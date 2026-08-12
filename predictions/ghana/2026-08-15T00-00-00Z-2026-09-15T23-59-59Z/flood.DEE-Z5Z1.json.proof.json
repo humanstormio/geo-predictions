@@ -1,0 +1,8 @@
+{
+  "id": "predictions.ghana.2026-08-15T00-00-00Z-2026-09-15T23-59-59Z",
+  "file": "flood.DEE-Z5Z1.json",
+  "sha256": "05fb90bec56dc53d288cf57d911e48eb7a96a3d5493303171eb3c1a2f6062260",
+  "ots_file": "flood.DEE-Z5Z1.json.ots",
+  "timestamp_method": "opentimestamps",
+  "created_utc": "2026-08-12T01:06:04Z"
+}

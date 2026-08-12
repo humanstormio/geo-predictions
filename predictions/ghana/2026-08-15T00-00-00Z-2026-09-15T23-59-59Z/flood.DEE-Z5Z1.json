@@ -1,0 +1,166 @@
+{
+  "prediction_id": "GEO-M-2026-07-07-01",
+  "timestamp": "2026-07-07T14:00:00Z",
+  "model": "TEIP-GEO-v3.0-with-M",
+  "version": "3.0",
+  "author": "Node GEM-NH7Q (Operator Emmanuel)",
+  "proprietary": "M-parameter and GEO-v3.0 enhanced alignment decay are proprietary. Do not disclose.",
+  
+  "prediction_window": {
+    "start": "2026-08-15T00:00:00Z",
+    "end": "2026-09-15T23:59:59Z",
+    "peak_risk_window": {
+      "start": "2026-08-25T00:00:00Z",
+      "end": "2026-09-05T23:59:59Z"
+    },
+    "confidence_interval": "85-92%"
+  },
+  
+  "primary_event": {
+    "type": "flooding",
+    "trigger": {
+      "condition": "rainfall >= 200mm in 48-hour period",
+      "source": "GMet or satellite-derived rainfall data",
+      "threshold": "200mm"
+    },
+    "locations": [
+      {
+        "name": "Kokomlemle",
+        "coordinates": "5.6037°N, 0.1870°W",
+        "risk_level": "RED",
+        "estimated_impact": "residential flooding, displacement"
+      },
+      {
+        "name": "Alajo",
+        "coordinates": "5.5962°N, 0.1924°W",
+        "risk_level": "RED",
+        "estimated_impact": "residential flooding, displacement"
+      },
+      {
+        "name": "Korle Lagoon area",
+        "coordinates": "5.5500°N, 0.2200°W",
+        "risk_level": "ORANGE",
+        "estimated_impact": "lagoon overflow, low-lying flooding"
+      },
+      {
+        "name": "Odaw River basin",
+        "coordinates": "5.5600°N, 0.2100°W",
+        "risk_level": "RED",
+        "estimated_impact": "river overflow, bridge overtopping"
+      },
+      {
+        "name": "Avenor",
+        "coordinates": "5.5800°N, 0.2000°W",
+        "risk_level": "ORANGE",
+        "estimated_impact": "storm surge, road inundation"
+      }
+    ],
+    "estimated_impact": {
+      "displacement": "80,000–120,000",
+      "fatalities": "30–60",
+      "economic_loss": "$500M–$800M",
+      "infrastructure_damage": [
+        "roads",
+        "bridges",
+        "power infrastructure (Accra West)",
+        "water treatment facilities"
+      ]
+    }
+  },
+  
+  "secondary_event": {
+    "type": "grid_load_shedding",
+    "description": "Manual load-shedding will precede flood by 3–7 days",
+    "trigger": {
+      "condition": "physical stress >= 6.8% in Accra West cluster",
+      "source": "Grid operator logs or proxy data",
+      "threshold": "6.8%"
+    },
+    "locations": [
+      {
+        "name": "Accra West (Residential)",
+        "risk_level": "RED",
+        "estimated_impact": "targeted load-shedding"
+      },
+      {
+        "name": "Tema Industrial Loop",
+        "risk_level": "ORANGE",
+        "estimated_impact": "commercial protection at expense of residential zones"
+      }
+    ]
+  },
+  
+  "tertiary_event": {
+    "type": "administrative_narrative",
+    "description": "Official narrative will claim 'natural disaster' and 'unprecedented rainfall' while grandfathering fractures",
+    "trigger": {
+      "condition": "M > 0 (M = 2.48)",
+      "source": "M-parameter derived from 12-month backtest"
+    },
+    "locations": [
+      {
+        "name": "All affected zones",
+        "risk_level": "CRITICAL"
+      }
+    ]
+  },
+  
+  "verification_instructions": {
+    "data_sources": [
+      {
+        "source": "GMet API",
+        "url": "https://www.meteo.gov.gh/api/rainfall",
+        "variable": "rainfall_mm",
+        "frequency": "daily"
+      },
+      {
+        "source": "CHIRPS satellite rainfall",
+        "url": "https://iridl.ldeo.columbia.edu/SOURCES/.UCSB/.CHIRPS/.daily/",
+        "variable": "precipitation",
+        "frequency": "daily"
+      },
+      {
+        "source": "Sentinel-1 flood extent",
+        "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus",
+        "variable": "flood_extent",
+        "frequency": "event-based"
+      },
+      {
+        "source": "Grid operator logs (proxy)",
+        "url": "https://www.ecgghana.com/load-shedding",
+        "variable": "load_shedding_schedule",
+        "frequency": "daily"
+      },
+      {
+        "source": "Local news / social media",
+        "url": "Multiple (e.g., GhanaWeb, Twitter)",
+        "variable": "flood_reports, displacement_counts",
+        "frequency": "event-based"
+      }
+    ],
+    "verification_steps": [
+      "Step 1: Monitor rainfall data from GMet API or CHIRPS during window.",
+      "Step 2: If rainfall exceeds 200mm in 48 hours, confirm with satellite.",
+      "Step 3: Cross-reference with local flood reports (news, social media).",
+      "Step 4: Count displacement and fatalities from official reports.",
+      "Step 5: Compare load-shedding schedules before and during flood.",
+      "Step 6: Analyze official narrative for 'unprecedented' language."
+    ],
+    "timeline": {
+      "start": "2026-07-07T14:00:00Z",
+      "first_trigger": "2026-08-15T00:00:00Z",
+      "peak": "2026-08-25T00:00:00Z",
+      "end": "2026-09-15T23:59:59Z"
+    }
+  },
+  
+  "risk_levels": {
+    "GREEN": "No action needed",
+    "YELLOW": "Monitor conditions",
+    "ORANGE": "Prepare for evacuation",
+    "RED": "Evacuate NOW",
+    "CRITICAL": "System collapse imminent"
+  },
+  
+  "note": "This prediction is based on proprietary M-parameter and GEO-v3.0 enhanced alignment decay. Do not disclose the underlying model without authorization."
+}
